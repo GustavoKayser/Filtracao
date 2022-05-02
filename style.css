@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --clr-dark: rgb(14, 10, 28);
+    --clr-dark-gradient: linear-gradient(100deg, rgb(65, 59, 86) 1%, rgb(14, 10, 28) 55%, rgb(77, 44, 98)); 
+    --clr-light-gradient: linear-gradient(30deg, rgb(49, 43, 68), rgb(109, 91, 136));
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    background: var(--clr-dark-gradient);
+    color: rgb(235, 235, 235);
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.main-content {
+    margin: auto;
+    padding: 1.5rem;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.53);
+    font-size: 13pt;
+    background-color: var(--clr-dark);
+    text-align: justify;
+    max-width: 700px;
+}
+
+.main-content h1, h2 {
+    text-align: center;
+}
+
+.main-content img {
+    width: 100%;
+    outline: 2px solid whitesmoke;
+}
+
+.submit {
+    margin: 0 0 0 5em;
+    background: var(--clr-light-gradient);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.message {
+    display: block;
+    width: 200px;
+    color: whitesmoke;
+    transition-duration: 200ms;
+}
+
+.message p {
+    padding: 5px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
